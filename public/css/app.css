@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.avatar{
+    height: 50px;
+    width: 50px;
+    background: #C0C0C0;
+}
+.backGeral {
+    background: #DCDCDC;
+}
+main{
+    font-size: 16px;
+}
+article{
+    width: 600px;
+}
+article:hover{
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.4);
+}
+article header h2{
+    font-weight: bold;
+}
+article img{
+    width: 100%
+}
+article div.image-cap{
+    background-size: contain;
+}
+a.post:hover{
+    text-decoration: none;
+}
+.data{
+    font-size: 13px;
+}
+@media (max-width: 650px) {
+    article{
+        width: 85%;
+    }
+    article header h2{
+        font-size: 23px;
+    }
+}
+/*.btn-circle.btn-sm {*/
+/*    width: 30px;*/
+/*    height: 30px;*/
+/*    padding: 6px 0px;*/
+/*    border-radius: 15px;*/
+/*    font-size: 8px;*/
+/*    text-align: center;*/
+/*}*/
