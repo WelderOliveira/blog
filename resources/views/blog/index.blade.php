@@ -29,4 +29,8 @@
             </article>
         @endforeach
     </section>
+    <div class="d-flex justify-content-center">
+        {!! $posts->onEachSide(2)->links('pagination::bootstrap-4') !!}
+    </div>
+{{--    {{ $posts->onEachSide(2)->links() }}--}}
 @stop

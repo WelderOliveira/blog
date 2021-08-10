@@ -41,7 +41,7 @@
 <body class="backGeral">
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom">
-        <a class="navbar-brand" href="#">LOGO</a>
+        <a class="navbar-brand" href="{{route('posts.index')}}">LOGO</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -51,7 +51,7 @@
             <ul class="navbar-nav mr-auto ml-auto">
                 <li class="nav-item">
                     <div class="justify-content-md-center">
-                        <form action="{{route('search.index')}}" method="GET" class="form-inline my-2 my-lg-0 my-lg-0">
+                        <form action="{{route('posts.search')}}" method="GET" class="form-inline my-2 my-lg-0 my-lg-0">
                             <div class="input-group rounded">
                                 <input type="text" class="form-control rounded" name="query" id="query"
                                        placeholder="Pesquise...">
